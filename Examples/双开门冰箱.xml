@@ -1,0 +1,28 @@
+<mujoco>
+  <asset>
+    <mesh file="13/RefrigeratorMain.stl"      name="main"/>
+    <mesh file="13/RefrigeratorDoor.stl"     name="door0"/>
+    <mesh file="13/RefrigeratorDoor0001.stl" name="door1"/>
+    <mesh file="13/RefrigeratorDrawer.stl"      name="draw0"/>
+    <mesh file="13/RefrigeratorDrawer0001.stl" name="draw1"/>
+    <mesh file="13/RefrigeratorDrawer0002.stl" name="draw2"/>
+    <mesh file="13/RefrigeratorDrawer0003.stl" name="draw3"/>
+    <mesh file="13/RefrigeratorDrawer0004.stl" name="draw4"/>
+  </asset>
+
+  <worldbody>
+    <body>
+      <!-- 外壳：浅白色塑料 -->
+      <geom type="mesh" mesh="main"   rgba="0.92 0.92 0.90 1"/>
+      <!-- 门：浅白色塑料 -->
+      <geom type="mesh" mesh="door0"  rgba="0.98 0.98 0.98 1"/>
+      <geom type="mesh" mesh="door1"  rgba="0.98 0.98 0.98 1"/>
+      <!-- 抽屉：透明塑料 -->
+      <geom type="mesh" mesh="draw0"  rgba="0.95 0.95 0.95 0.6"/>
+      <geom type="mesh" mesh="draw1"  rgba="0.95 0.95 0.95 0.6"/>
+      <geom type="mesh" mesh="draw2"  rgba="0.95 0.95 0.95 0.6"/>
+      <geom type="mesh" mesh="draw3"  rgba="0.95 0.95 0.95 0.6"/>
+      <geom type="mesh" mesh="draw4"  rgba="0.95 0.95 0.95 0.6"/>
+    </body>
+  </worldbody>
+</mujoco>

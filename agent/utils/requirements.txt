@@ -1,0 +1,11 @@
+langchain>=0.2.14
+langchain-openai>=0.1.23
+openai>=1.40.0
+pydantic>=2.7.0
+python-dotenv>=1.0.1
+numpy>=1.24.0
+Pillow>=10.0.0
+requests>=2.31.0
+mujoco>=3.0.0
+mujoco-python-viewer>=2.0.0
+

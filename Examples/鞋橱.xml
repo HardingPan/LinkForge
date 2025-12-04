@@ -1,0 +1,25 @@
+<mujoco>
+  <asset>
+    <mesh file="19/ShoeCabinetMainBody.stl"   name="body"/>
+    <mesh file="19/ShoeCabinetDoor.stl"       name="d0"/>
+    <mesh file="19/ShoeCabinetDoor0001.stl"   name="d1"/>
+    <mesh file="19/ShoeCabinetDoor0002.stl"   name="d2"/>
+    <mesh file="19/ShoeCabinetDoor0003.stl"   name="d3"/>
+    <mesh file="19/ShoeCabinetDrawer.stl"     name="draw0"/>
+    <mesh file="19/ShoeCabinetDrawer0001.stl" name="draw1"/>
+  </asset>
+
+  <worldbody>
+    <body>
+      <!-- 主体&抽屉：深色木 -->
+      <geom type="mesh" mesh="body"   rgba="0.35 0.25 0.18 1"/>
+      <geom type="mesh" mesh="draw0"  rgba="0.35 0.25 0.18 1"/>
+      <geom type="mesh" mesh="draw1"  rgba="0.35 0.25 0.18 1"/>
+      <!-- 门扇：浅色木 -->
+      <geom type="mesh" mesh="d0" rgba="0.70 0.55 0.40 1"/>
+      <geom type="mesh" mesh="d1" rgba="0.70 0.55 0.40 1"/>
+      <geom type="mesh" mesh="d2" rgba="0.70 0.55 0.40 1"/>
+      <geom type="mesh" mesh="d3" rgba="0.70 0.55 0.40 1"/>
+    </body>
+  </worldbody>
+</mujoco>

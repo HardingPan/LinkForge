@@ -1,0 +1,21 @@
+<mujoco>
+  <asset>
+    <mesh file="20/ToiletMain.stl"  name="main"/>
+    <mesh file="20/ToiletSeat.stl"  name="seat"/>
+    <mesh file="20/ToiletLid.stl"   name="lid"/>
+    <mesh file="20/ToiletKnob.stl"  name="knob"/>
+  </asset>
+
+  <worldbody>
+    <body>
+      <!-- 主体：亮白陶瓷 -->
+      <geom type="mesh" mesh="main" rgba="0.95 0.95 0.95 1"/>
+      <!-- 座圈：乳白陶瓷 -->
+      <geom type="mesh" mesh="seat" rgba="0.92 0.92 0.90 1"/>
+      <!-- 盖子：乳白陶瓷 -->
+      <geom type="mesh" mesh="lid"  rgba="0.92 0.92 0.90 1"/>
+      <!-- 旋钮：浅灰塑料 -->
+      <geom type="mesh" mesh="knob" rgba="0.70 0.70 0.70 1"/>
+    </body>
+  </worldbody>
+</mujoco>
