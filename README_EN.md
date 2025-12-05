@@ -9,10 +9,10 @@ LinkForge is a multimodal LLM-based MJCF constraint generation system that autom
 <table>
 <tr>
 <td width="50%">
-  <img src="assets/demo.png" alt="Demo" style="width:100%; height:auto; max-height:400px; object-fit:contain;">
+  <img src="assets/demo.png" alt="Demo" style="width:100%; height:auto; max-height:280px; object-fit:contain;">
 </td>
 <td width="50%">
-  <img src="assets/demo.gif" alt="Demo Animation" style="width:100%; height:auto; max-height:400px; object-fit:contain;">
+  <img src="assets/demo.gif" alt="Demo Animation" style="width:100%; height:auto; max-height:280px; object-fit:contain;">
 </td>
 </tr>
 </table>
