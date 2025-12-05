@@ -6,9 +6,16 @@ LinkForge 是一个基于多模态大模型的 MJCF 约束生成系统，能够�
 
 ## 🎬 演示效果
 
-![Demo](assets/demo.png)
-
-![Demo Animation](assets/demo.gif)
+<table>
+<tr>
+<td width="50%">
+  <img src="assets/demo.png" alt="Demo" style="width:100%;">
+</td>
+<td width="50%">
+  <img src="assets/demo.gif" alt="Demo Animation" style="width:100%;">
+</td>
+</tr>
+</table>
 
 ## 🎯 核心功能
 
