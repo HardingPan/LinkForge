@@ -4,6 +4,12 @@ English | [中文](README.md)
 
 LinkForge is a multimodal LLM-based MJCF constraint generation system that automatically analyzes 3D furniture models, identifies moving parts, and generates motion constraints required for MuJoCo physics simulation.
 
+## 🎬 Demo
+
+![Demo](assets/demo.png)
+
+![Demo Animation](assets/demo.gif)
+
 ## 🎯 Core Features
 
 - **Scene Rendering & Orchestration**: Automatically renders multi-view images of 3D models

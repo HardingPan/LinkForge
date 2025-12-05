@@ -4,6 +4,12 @@
 
 LinkForge 是一个基于多模态大模型的 MJCF 约束生成系统，能够自动分析 3D 家具模型，识别运动部件，并生成 MuJoCo 物理仿真所需的运动约束。
 
+## 🎬 演示效果
+
+![Demo](assets/demo.png)
+
+![Demo Animation](assets/demo.gif)
+
 ## 🎯 核心功能
 
 - **场景渲染与编排**：自动渲染 3D 模型的多视角图像
